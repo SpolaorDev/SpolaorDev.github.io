@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -1313,7 +1314,7 @@
       scale: 1.07;
     }
   
-    /*===== PROJECTS ====================================*/
+    /*===== PROJETOS ====================================*/
   
     #projects {
       background-color: var(--secundary-color);
@@ -1352,7 +1353,7 @@
       flex-grow: 1;
     }
   
-    /*===== CONTACT =====================================*/
+    /*===== CONTATOS =====================================*/
   
     #contact .wrapper {
       grid-template-columns: 1fr 57.5rem;
@@ -1481,7 +1482,7 @@
       font-size: 1.4rem;
     }
   
-    /*===== PROJECTS ==================================*/
+    /*===== PROJETOS ==================================*/
   
     #projects .card {
       padding: 2.5rem;
@@ -1501,7 +1502,7 @@
       height: 3rem;
     }
   
-    /*===== CONTACT ==================================*/
+    /*===== CONTATOS ==================================*/
   
     #contact ul a {
       font-size: 1.3rem;
@@ -1661,4 +1662,15 @@
       height: 2rem;
     }
   }
-/*=====SpolaorDev=======================*/
+
+  .menu {
+    list-style: none;
+    border: 1px solid black;
+    float: left;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
